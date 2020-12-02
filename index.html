@@ -8,11 +8,25 @@
 </head>
 <body>
   <section class="controls">
+
     <h1>My Metronome</h1>
+
     <button class="play-button">
       <div id="start-stop-icon" class="start"></div>
     </button>
+
+    <div class="tempo-container">
+      <button class="tempo-button" data-change="-5">-5</button>
+      <button class="tempo-button" data-change="-1">-1</button>
     
+      <div class="tempo-info">
+        <h2 class="current-tempo" id="tempo">120 bpm</h2>
+      </div>
+    
+      <button class="tempo-button" data-change="+1">+1</button>
+      <button class="tempo-button" data-change="+5">+5</button>
+    </div>
+
   </section>
 </body>
 </html>
